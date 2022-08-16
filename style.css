@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 3rem 6rem;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-container div:first-child {
+  transform: scale(0.7);
+  margin: auto 0;
+}
+.grow-list {
+  margin-left: auto 0;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 60rem;
+  margin: auto 0;
+}
+.list-item {
+  margin: 1.5rem;
+  list-style: none;
+  color: rgb(209, 209, 209);
+}
+.list-item:first-child {
+  color: black;
+  font-weight: 500;
+}
+.button-group {
+  margin: auto 0;
+}
+.nav-button {
+  color: white;
+  background-color: rgb(79, 79, 190);
+  padding: 9px 18px;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.banner-container div:first-child {
+  width: 40%;
+  float: left;
+  margin-top: 6rem;
+}
+.heading-text {
+  font-size: 3.5rem;
+}
+.heading-text span {
+  color: rgb(79, 79, 190);
+}
+.description {
+  margin-top: 1rem;
+  width: 24vw;
+}
+.banner-container div:first-child button {
+  margin: 3.5rem 1rem;
+  padding: 0.9rem 1.8rem;
+}
+.banner-container div:last-child {
+  width: 60%;
+  float: right;
+}
+.banner-container div:last-child img {
+  height: 40rem;
+  width: 56.2rem;
+}
